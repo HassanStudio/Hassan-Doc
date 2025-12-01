@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Hassan"
   text: "智能的 macOS 脚本执行平台"
-  tagline: "The editor that hides in plain sight" —— 隐藏在明处的编辑器
+  tagline: '"The editor that hides in plain sight" —— 隐藏在明处的编辑器'
   actions:
     - theme: brand
       text: 快速开始
