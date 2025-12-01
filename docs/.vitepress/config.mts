@@ -6,9 +6,8 @@ export default defineConfig({
   description: "智能的 macOS 脚本执行平台，伪装成外部编辑器，为你的开发工作流带来强大的自动化能力",
 
   // 如果部署到 GitHub Pages，需要设置正确的 base
-  // 如果仓库名是 Hassan-Doc，base 应该是 '/Hassan-Doc/'
-  // 如果使用自定义域名，可以注释掉这一行
-  base: '/Hassan-Doc/',
+  // 使用组织主页 hassanstudio.github.io，不需要设置 base
+  // base: '/Hassan-Doc/',
 
   // 主题配置
   themeConfig: {
