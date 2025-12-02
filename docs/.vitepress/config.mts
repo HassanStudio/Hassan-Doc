@@ -16,6 +16,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/' },
       { text: '常见问题', link: '/faq' },
+      { text: '隐私政策', link: '/privacy' },
       { text: '更新说明', link: '/changelog' }
     ],
 
@@ -34,6 +35,7 @@ export default defineConfig({
         text: '其他',
         items: [
           { text: '常见问题', link: '/faq' },
+          { text: '隐私政策', link: '/privacy' },
           { text: '更新说明', link: '/changelog' }
         ]
       }
