@@ -8,6 +8,12 @@ export default defineConfig({
   // 使用组织主页 hassanstudio.github.io，不需要设置 base
   // base: '/Hassan-Doc/',
 
+  // Favicon 配置
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }]
+  ],
+
   // 主题配置
   themeConfig: {
     // 导航栏
