@@ -8,7 +8,7 @@ jq = "1.8.1"
 
 [hooks]
 # 安装工具后自动安装 pnpm 依赖
-after_install = "mise run npm:install"
+postinstall = "mise run npm:install"
 
 # npm 相关任务
 [tasks."npm:dev"]
